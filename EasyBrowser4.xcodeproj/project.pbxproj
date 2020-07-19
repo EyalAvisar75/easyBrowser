@@ -15,6 +15,7 @@
 		181EEBD424C03312005793BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181EEBD224C03312005793BF /* LaunchScreen.storyboard */; };
 		181EEBDF24C03313005793BF /* EasyBrowser4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181EEBDE24C03313005793BF /* EasyBrowser4Tests.swift */; };
 		181EEBEA24C03313005793BF /* EasyBrowser4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181EEBE924C03313005793BF /* EasyBrowser4UITests.swift */; };
+		181EEBF824C07B60005793BF /* LinksTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181EEBF724C07B60005793BF /* LinksTable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		181EEBE524C03313005793BF /* EasyBrowser4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyBrowser4UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		181EEBE924C03313005793BF /* EasyBrowser4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyBrowser4UITests.swift; sourceTree = "<group>"; };
 		181EEBEB24C03313005793BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		181EEBF724C07B60005793BF /* LinksTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinksTable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +82,9 @@
 			isa = PBXGroup;
 			children = (
 				181EEBC624C0330D005793BF /* EasyBrowser4 */,
-				181EEBDD24C03312005793BF /* EasyBrowser4Tests */,
 				181EEBE824C03313005793BF /* EasyBrowser4UITests */,
 				181EEBC524C0330D005793BF /* Products */,
+				181EEBDD24C03312005793BF /* EasyBrowser4Tests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +103,7 @@
 			children = (
 				181EEBC724C0330D005793BF /* AppDelegate.swift */,
 				181EEBC924C0330D005793BF /* SceneDelegate.swift */,
+				181EEBF724C07B60005793BF /* LinksTable.swift */,
 				181EEBCB24C0330D005793BF /* ViewController.swift */,
 				181EEBCD24C0330D005793BF /* Main.storyboard */,
 				181EEBD024C03312005793BF /* Assets.xcassets */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				181EEBF824C07B60005793BF /* LinksTable.swift in Sources */,
 				181EEBCC24C0330D005793BF /* ViewController.swift in Sources */,
 				181EEBC824C0330D005793BF /* AppDelegate.swift in Sources */,
 				181EEBCA24C0330D005793BF /* SceneDelegate.swift in Sources */,
